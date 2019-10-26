@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-10-26T16:25:25-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gabriel Marinho</title><subtitle>Trabalhando com desenvolvimento web desde 2013, criando projetos que impactam milhares de pessoas. Sempre preocupado com a experiência do usuário e usando métricas de dados para otimizar ferramentas web</subtitle><entry><title type="html">HTTP/3: o que mudou</title><link href="http://localhost:4000/http/google/2019/10/16/http3-o-que-mudou.html" rel="alternate" type="text/html" title="HTTP/3: o que mudou" /><published>2019-10-16T10:25:10-03:00</published><updated>2019-10-16T10:25:10-03:00</updated><id>http://localhost:4000/http/google/2019/10/16/http3-o-que-mudou</id><content type="html" xml:base="http://localhost:4000/http/google/2019/10/16/http3-o-que-mudou.html">&lt;p&gt;Esse artigo está alguns dias atrasado desde o lançamento do HTTP/3 no dia 26 de setembro.&lt;/p&gt;
+
+&lt;p&gt;Atualmente, 2,4% dos websites da Internet já utilizam o HTTP/3. A nova versão do protocolo veio com apoio das grandes empresas do Vale do Silício. &lt;strong&gt;Google&lt;/strong&gt;, &lt;strong&gt;CloudFlare&lt;/strong&gt;, &lt;strong&gt;Facebook&lt;/strong&gt; e a &lt;strong&gt;Mozilla&lt;/strong&gt; já oferecem suporte para o protocolo em alguns de seus serviços e produtos.&lt;/p&gt;
+
+&lt;p&gt;As mudanças mais significativas para esse novo modelo são:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TCP sai, UDP entra&lt;/li&gt;
+  &lt;li&gt;Mais velocidade, menos segurança?&lt;/li&gt;
+  &lt;li&gt;Devo atualizar meu servidor/aplicação?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;tcp-sai-udp-entra&quot;&gt;TCP sai, UDP entra&lt;/h2&gt;
+&lt;p&gt;O novo protocolo fez uma mudança na base da tecnologia. Anteriormente, como sabemos, o HTTP usava desde sua versão inicial o protocolo TCP para o transporte dos pacotes de dados. Com a nova versão do HTTP, o protocolo começa a utilizar o UDP para fazer o transporte.&lt;/p&gt;
+
+&lt;p&gt;Para explicar melhor, o TCP é um protocolo da camada de transporte (4° camada do modelo OSI) responsável pelo transporte dos pacotes de dados de uma rede. Ele é conhecido por ser um protocolo que garante a integridade dos dados, porém, essa garantia de verificação de integridade faz com que ele seja “lento”. O UDP, pertencente da mesma camada, não garante a integridade dos pacotes de dados, porém, é mais rápido. Isso significa que a velocidade de carregamento e funcionamento de aplicações web que utilizam HTTP/3 em seus servidores e que tenham usuários com navegadores suportando o protocolo serão mais rápidas.&lt;/p&gt;
+
+&lt;h2 id=&quot;mais-velocidade-menos-segurança&quot;&gt;Mais velocidade, menos segurança?&lt;/h2&gt;
+&lt;p&gt;Se você já estudou redes de computadores, deve saber que o UDP não garante a integridade das mensagens. Para solucionar este problema, o QUIC (protocolo base do HTTP/3 criado pela Google) possui uma camada extra de segurança. E para provar que essa nova tecnologia realmente funciona, a Google implementou o back-end do Google Duo com suporte para o protocolo.&lt;/p&gt;
+
+&lt;p&gt;Então, se até a gigante da Internet implementou e confiou na nova tecnologia e não teve problemas até o momento, talvez, não seja um problema você pensar na ideia de fazer o mesmo em algum dos seus projetos.&lt;/p&gt;
+
+&lt;h2 id=&quot;devo-atualizar-meu-servidoraplicação&quot;&gt;Devo atualizar meu servidor/aplicação?&lt;/h2&gt;
+&lt;p&gt;Se você utiliza CloudFlare e/ou Google Cloud Platform que já oferecem suporte para o novo protocolo, você pode ativar e melhorar o desempenho do seu projeto. Entretanto, deve ser feito um planejamento bem estruturado sobre. Recomendo ler este artigo publicado no blog oficial do CloudFlare.&lt;/p&gt;
+
+&lt;p&gt;Para mais informações sobre o HTTP/3, &lt;a href=&quot;https://http3.net&quot;&gt;clique aqui&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Esse artigo está alguns dias atrasado desde o lançamento do HTTP/3 no dia 26 de setembro.</summary></entry><entry><title type="html">Otimização vai além de código</title><link href="http://localhost:4000/otimiza%C3%A7%C3%A3o/web/desempenho/seo/2019/10/14/otimizacao-vai-alem-de-codigo.html" rel="alternate" type="text/html" title="Otimização vai além de código" /><published>2019-10-14T20:45:40-03:00</published><updated>2019-10-14T20:45:40-03:00</updated><id>http://localhost:4000/otimiza%C3%A7%C3%A3o/web/desempenho/seo/2019/10/14/otimizacao-vai-alem-de-codigo</id><content type="html" xml:base="http://localhost:4000/otimiza%C3%A7%C3%A3o/web/desempenho/seo/2019/10/14/otimizacao-vai-alem-de-codigo.html">&lt;p&gt;Sem duvidas, um dos maiores desafios dos desenvolvedores web é a otimização de seus projetos. Para ser sincero, não existe um padrão a ser seguido que garante respostas do servidor para o cliente de 1ms.&lt;/p&gt;
+
+&lt;p&gt;Durante uma palestra na Chrome Dev Summit, um renomado engenheiro de software da Google afirmou que:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Não existem boas práticas que vão garantir uma aplicação com desempenho máximo. Não existem soluções alternativas que vão garantir uma aplicação com desempenho máximo. Existem “hacks” que podem ajudar sua aplicação no desempenho”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ou seja, a otimização é feita através de gambiarras, isso porque a Internet em geral é uma gambiarra. O HTTP, por exemplo, não foi criado para transferir arquivos de mídia e sites com muitas requisições. Seu ideal era apenas responder os GETs do usuário entregando os textos solicitados. Aliás, não existe um HMDP (Hyper Media Protocol).&lt;/p&gt;
+
+&lt;p&gt;Enfim, bora botar mão na massa!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;faça-análises-antes-de-fazer-deploy&quot;&gt;Faça análises antes de fazer deploy&lt;/h2&gt;
+&lt;p&gt;É tentador querer lançar sua aplicação web o quanto antes para todos. Principalmente se for algo pessoal ou informal. Para isso, aguarde, respire fundo e faça muitas análises com Dev Tools gratuitas na internet. Você pode hospedar um protótipo e utilizar alguma das ferramentas a seguir para realizar as análises:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WebPageTest&lt;/li&gt;
+  &lt;li&gt;web.dev&lt;/li&gt;
+  &lt;li&gt;Website Grader&lt;/li&gt;
+  &lt;li&gt;KeyCDN Tools&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;minifique-seu-código&quot;&gt;Minifique seu código&lt;/h2&gt;
+&lt;p&gt;Existem centenas de ferramentas online que minificam seus códigos HTML, CSS e JS. Essa ação gera um arquivo com menos carácteres, e obviamente, menores nos megabytes/kilobytes.&lt;/p&gt;
+
+&lt;p&gt;Observação: códigos minificados ficam quase que ilegíveis aos olhos humanos. Por isso, pode ser complicado realizar a manutenção de aplicações com código minificado.&lt;/p&gt;
+
+&lt;p&gt;Algumas ferramentas para realizar a minificação de seus códigos são:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HTML Minifier&lt;/li&gt;
+  &lt;li&gt;CSS Minifier&lt;/li&gt;
+  &lt;li&gt;Minify - minificador CSS e JavaScript&lt;/li&gt;
+  &lt;li&gt;JavaScript Minifier&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;comprima-vídeos-imagens-e-áudios&quot;&gt;Comprima vídeos, imagens e áudios&lt;/h2&gt;
+&lt;p&gt;Nos dias atuais, a compressão de mídias tornou-se uma tecnologia inimaginável há 10 anos atrás. Qualquer um pode utilizar uma ferramenta que comprime mídias em 70% de seu tamanho original e ainda assim, mantenha uma alta definição. Algumas ferramentas são:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I ❤ IMG&lt;/li&gt;
+  &lt;li&gt;YouCompress&lt;/li&gt;
+  &lt;li&gt;OnlineConverter Compress Video&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;atualize-seu-http&quot;&gt;Atualize seu HTTP&lt;/h2&gt;
+&lt;p&gt;A versão 2 do HTTP veio com avanços surreais quando comparado às versões anteriores. A otimização na transferência e comunicação do servidor com o cliente foram impactantes suficientes para alavancar o desempenho das aplicações web. Através dela, o usuário mantém apenas 1 conexão TCP com o servidor e pode fazer diversos GETs através do modo de multiplexação.&lt;/p&gt;
+
+&lt;p&gt;A funcionalidade Push do HTTP/2 é um outro ótimo exemplo de como a nova versão do HTTP pode te ajudar. Através dela, você pode enviar dependências do GET que o usuário fez de uma vez, evitando uma nova requisição e garantindo que não exista congestionamento do servidor. É importante lembrar que o mal uso dessa funcionalidade pode trazer o efeito reverso. Então, &lt;strong&gt;tome muito cuidado!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;informação-bônus-otimização-e-seo&quot;&gt;Informação bônus: Otimização e SEO&lt;/h2&gt;
+&lt;p&gt;Por incrível que pareça, o Google utiliza dados de desempenho dos websites para garantir um rankeamento mais próximo de uma boa experiência para o usuário. Dessa forma, um site mal otimizado expulsa visitantes de diversos canais imagináveis.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h2&gt;
+&lt;p&gt;Um navegador não se importa o quão indentado seu código é. Tampouco quão bonito são os nomes das suas classes, funções e IDs. &lt;strong&gt;A otimização é ser simples, compresso e inteligente.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Sem duvidas, um dos maiores desafios dos desenvolvedores web é a otimização de seus projetos. Para ser sincero, não existe um padrão a ser seguido que garante respostas do servidor para o cliente de 1ms.</summary></entry></feed>

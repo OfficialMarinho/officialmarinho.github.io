@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Otimização vai além de código | Gabriel Marinho</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Otimização vai além de código" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Sem duvidas, um dos maiores desafios dos desenvolvedores web é a otimização de seus projetos. Para ser sincero, não existe um padrão a ser seguido que garante respostas do servidor para o cliente de 1ms." />
+<meta property="og:description" content="Sem duvidas, um dos maiores desafios dos desenvolvedores web é a otimização de seus projetos. Para ser sincero, não existe um padrão a ser seguido que garante respostas do servidor para o cliente de 1ms." />
+<link rel="canonical" href="http://localhost:4000/otimiza%C3%A7%C3%A3o/web/desempenho/seo/2019/10/14/otimizacao-vai-alem-de-codigo.html" />
+<meta property="og:url" content="http://localhost:4000/otimiza%C3%A7%C3%A3o/web/desempenho/seo/2019/10/14/otimizacao-vai-alem-de-codigo.html" />
+<meta property="og:site_name" content="Gabriel Marinho" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-10-14T20:45:40-03:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/otimiza%C3%A7%C3%A3o/web/desempenho/seo/2019/10/14/otimizacao-vai-alem-de-codigo.html"},"@type":"BlogPosting","url":"http://localhost:4000/otimiza%C3%A7%C3%A3o/web/desempenho/seo/2019/10/14/otimizacao-vai-alem-de-codigo.html","headline":"Otimização vai além de código","dateModified":"2019-10-14T20:45:40-03:00","datePublished":"2019-10-14T20:45:40-03:00","description":"Sem duvidas, um dos maiores desafios dos desenvolvedores web é a otimização de seus projetos. Para ser sincero, não existe um padrão a ser seguido que garante respostas do servidor para o cliente de 1ms.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Gabriel Marinho" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Gabriel Marinho</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/contato/">Contato</a><a class="page-link" href="/sobre/">Sobre</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Otimização vai além de código</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2019-10-14T20:45:40-03:00" itemprop="datePublished">Oct 14, 2019
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Sem duvidas, um dos maiores desafios dos desenvolvedores web é a otimização de seus projetos. Para ser sincero, não existe um padrão a ser seguido que garante respostas do servidor para o cliente de 1ms.</p>
+
+<p>Durante uma palestra na Chrome Dev Summit, um renomado engenheiro de software da Google afirmou que:</p>
+
+<blockquote>
+  <p>“Não existem boas práticas que vão garantir uma aplicação com desempenho máximo. Não existem soluções alternativas que vão garantir uma aplicação com desempenho máximo. Existem “hacks” que podem ajudar sua aplicação no desempenho”</p>
+</blockquote>
+
+<p>Ou seja, a otimização é feita através de gambiarras, isso porque a Internet em geral é uma gambiarra. O HTTP, por exemplo, não foi criado para transferir arquivos de mídia e sites com muitas requisições. Seu ideal era apenas responder os GETs do usuário entregando os textos solicitados. Aliás, não existe um HMDP (Hyper Media Protocol).</p>
+
+<p>Enfim, bora botar mão na massa!</p>
+
+<hr />
+
+<h2 id="faça-análises-antes-de-fazer-deploy">Faça análises antes de fazer deploy</h2>
+<p>É tentador querer lançar sua aplicação web o quanto antes para todos. Principalmente se for algo pessoal ou informal. Para isso, aguarde, respire fundo e faça muitas análises com Dev Tools gratuitas na internet. Você pode hospedar um protótipo e utilizar alguma das ferramentas a seguir para realizar as análises:</p>
+
+<ul>
+  <li>WebPageTest</li>
+  <li>web.dev</li>
+  <li>Website Grader</li>
+  <li>KeyCDN Tools</li>
+</ul>
+
+<h2 id="minifique-seu-código">Minifique seu código</h2>
+<p>Existem centenas de ferramentas online que minificam seus códigos HTML, CSS e JS. Essa ação gera um arquivo com menos carácteres, e obviamente, menores nos megabytes/kilobytes.</p>
+
+<p>Observação: códigos minificados ficam quase que ilegíveis aos olhos humanos. Por isso, pode ser complicado realizar a manutenção de aplicações com código minificado.</p>
+
+<p>Algumas ferramentas para realizar a minificação de seus códigos são:</p>
+
+<ul>
+  <li>HTML Minifier</li>
+  <li>CSS Minifier</li>
+  <li>Minify - minificador CSS e JavaScript</li>
+  <li>JavaScript Minifier</li>
+</ul>
+
+<h2 id="comprima-vídeos-imagens-e-áudios">Comprima vídeos, imagens e áudios</h2>
+<p>Nos dias atuais, a compressão de mídias tornou-se uma tecnologia inimaginável há 10 anos atrás. Qualquer um pode utilizar uma ferramenta que comprime mídias em 70% de seu tamanho original e ainda assim, mantenha uma alta definição. Algumas ferramentas são:</p>
+
+<ul>
+  <li>I ❤ IMG</li>
+  <li>YouCompress</li>
+  <li>OnlineConverter Compress Video</li>
+</ul>
+
+<h2 id="atualize-seu-http">Atualize seu HTTP</h2>
+<p>A versão 2 do HTTP veio com avanços surreais quando comparado às versões anteriores. A otimização na transferência e comunicação do servidor com o cliente foram impactantes suficientes para alavancar o desempenho das aplicações web. Através dela, o usuário mantém apenas 1 conexão TCP com o servidor e pode fazer diversos GETs através do modo de multiplexação.</p>
+
+<p>A funcionalidade Push do HTTP/2 é um outro ótimo exemplo de como a nova versão do HTTP pode te ajudar. Através dela, você pode enviar dependências do GET que o usuário fez de uma vez, evitando uma nova requisição e garantindo que não exista congestionamento do servidor. É importante lembrar que o mal uso dessa funcionalidade pode trazer o efeito reverso. Então, <strong>tome muito cuidado!</strong></p>
+
+<h2 id="informação-bônus-otimização-e-seo">Informação bônus: Otimização e SEO</h2>
+<p>Por incrível que pareça, o Google utiliza dados de desempenho dos websites para garantir um rankeamento mais próximo de uma boa experiência para o usuário. Dessa forma, um site mal otimizado expulsa visitantes de diversos canais imagináveis.</p>
+
+<h2 id="conclusão">Conclusão</h2>
+<p>Um navegador não se importa o quão indentado seu código é. Tampouco quão bonito são os nomes das suas classes, funções e IDs. <strong>A otimização é ser simples, compresso e inteligente.</strong></p>
+
+  </div><a class="u-url" href="/otimiza%C3%A7%C3%A3o/web/desempenho/seo/2019/10/14/otimizacao-vai-alem-de-codigo.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Gabriel Marinho</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Gabriel Marinho</li><li><a class="u-email" href="mailto:gdcmarinho@gmail.com">gdcmarinho@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/OfficialMarinho"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">OfficialMarinho</span></a></li><li><a href="https://www.twitter.com/OfficialMarinho"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">OfficialMarinho</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Trabalhando com desenvolvimento web desde 2013, criando projetos que impactam milhares de pessoas. Sempre preocupado com a experiência do usuário e usando métricas de dados para otimizar ferramentas web</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
