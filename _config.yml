@@ -12,3 +12,4 @@ github_username:  OfficialMarinho
 theme: minima
 plugins:
   - jekyll-feed
+  - jemoji

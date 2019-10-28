@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Otimização vai além de código"
+title:  "🚀 Otimização vai além de código"
 date:   2019-10-14 20:45:40 -0300
 categories: otimização web desempenho seo
 ---

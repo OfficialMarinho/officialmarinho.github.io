@@ -1,0 +1,21 @@
+I"�<p>Ao contrário do que muitos pensam, não existe somente um tipo de pixel no mundo do desenvolvimento. Se você já estudou responsividade, deve ter percebido ou ouvido falar algo sobre. Me refiro ao pixel do dispositivo e pixel do navegador, eles são distintos e saber suas diferenças pode ser decisivo no mercado de trabalho front-end.</p>
+
+<p>Mas, antes de mais nada, você sabe exatamente o que é um pixel?</p>
+
+<h4 id="question-o-que-é-um-pixel">:question: O que é um pixel?</h4>
+<p>Um pixel é o menor elemento de exibição em uma tela. Ele pode ser vermelho, verde, azul ou uma combinação dessas cores. Atualmente, existem dispositivos com milhões de pixels e talvez você tenha um dispositivo desse aí na sua casa.</p>
+
+<p>Por exemplo, uma TV 4K possui em média <strong>8,2 milhões de pixels</strong>. Sabia disso?</p>
+
+<h4 id="iphone-pixel-do-dispositivo">:iphone: Pixel do dispositivo</h4>
+<p><img alt="Pixels na tela de um computador" style="width: 500px; display: block; margin: 0 auto; margin-bottom: 10px" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/PixelsLCDMonitor.JPG" />
+Quando você vai comprar um dispositivo novo, é comum buscarmos sobre as polegadas ou sobre os pixels. Entretanto, não basta escolher a tela com mais pixels e mais polegadas. É necessário uma visão mais ampla sobre o assunto. Neste caso, o conjunto de uma densidade de pixel alta por polegada faz com que o dispositivo tenha uma qualidade superior aos que não possuem.</p>
+
+<h4 id="ship-pixel-do-navegador">:ship: Pixel do navegador</h4>
+<p>O pixel do navegador é um pixel imaginário. 1px do navegador não é o mesmo 1px do dispositivo. Em alguns casos, esse pixel imaginário pode se aproximar bastante da realidade devido a densidade de pixel por polegada, mas não é recomendável utilizar os pixels de elementos de acordo com um tamanho de tela específico.</p>
+
+<h4 id="rainbow-o-mundo-mágico-do-viewport">:rainbow: O mundo mágico do viewport</h4>
+<p>Para solucionarmos o problema da diferença entre o pixel do dispositivo e o pixel do navegador, utilizar uma tag de única linha no HTML de cada página de um determinado website.</p>
+
+<p><code class="highlighter-rouge">&lt;meta name="viewport" content="width=device-width"&gt;</code></p>
+:ET
