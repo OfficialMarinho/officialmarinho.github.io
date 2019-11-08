@@ -1,4 +1,5 @@
 title: Gabriel Marinho
+lang: pt_BR
 email: gdcmarinho@gmail.com
 description: >- 
   Trabalhando com desenvolvimento web desde 2013, criando projetos que
@@ -13,3 +14,4 @@ theme: minima
 plugins:
   - jekyll-feed
   - jemoji
+  - jekyll-seo-tag
