@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: none;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #121212;
+    padding: 60px 100px;
+}
+
+h1 {
+    font-size: 65px;
+    line-height: 72px;
+}
+
+.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.click {
+    cursor: pointer;
+}
+
+.rainbow-text {
+    background: linear-gradient(90deg, rgba(255,211,61,1) 0%, rgba(251,133,50,1) 16%, rgba(234,74,90,1) 32%, rgba(138,99,210,1) 48%, rgba(33,136,255,1) 64%, rgba(52,208,88,1) 85%, rgba(255,211,61,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rainbow-text:hover {
+    background: linear-gradient(90deg, rgba(255,211,61,1) 0%, rgba(251,133,50,1) 16%, rgba(234,74,90,1) 32%, rgba(138,99,210,1) 48%, rgba(33,136,255,1) 64%, rgba(52,208,88,1) 85%, rgba(255,211,61,1) 100%) 0% center / 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 4s linear infinite;
+}
+
+@keyframes rainbow {
+    to { background-position-x: 200%; }
+}
+
+.aligned {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-one {
+    display: flex;
+    justify-content: center;
+}
+
+.center-two {
+    display: flex;
+    align-items: center;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    padding: 0px;
+}
+
+.item-menu {
+    margin: 0px 10px;
+}
+
+.item-menu--footer {
+    font-size: 35px;
+}
+
+.link-footer {
+    display: inline-block;
+}
+
+.initial-text {
+    padding: 80px 0px;
+}
+
+.card {
+    border: 0.5px solid #1f1f1f;
+    width: 25vw;
+    margin: 50px;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
