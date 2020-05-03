@@ -10,22 +10,24 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/stylesheet.css">
+        <link rel="icon" href="./img/favicon.png" />
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header class="aligned space-between">
-            <p class="logo unselectable">Gabriel Marinho</p>
+            <a href="./index.html"><p class="logo unselectable">Gabriel Marinho</p></a> 
             <ul class="menu aligned">
-                <a href="./work.html"><li class="item-menu">Work</li></a>
+                <a href="./work.html"><li class="item-menu --active">Work</li></a>
                 <li class="item-menu">About</li>
                 <li class="item-menu">Contact</li>
             </ul>
         </header>
-        <main class="aligned">
-            <div class="card">
-                <h3>iFood Clone</h3>
+        <main class="aligned unselectable">
+            <div class="card --red">
+                <h3 class="title-project">iFood Clone</h3>
+                <p class="description-project">Angular application with restaurants informations</p>
             </div>
             <div class="card">
                 <h3>COVID-19 Analytics</h3>

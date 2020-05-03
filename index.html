@@ -2,43 +2,76 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Gabriel Marinho</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/stylesheet.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gabriel Marinho</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="icon" href="./img/favicon.png" />
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="www.google.com/chrome">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <header class="aligned space-between">
-            <p class="logo unselectable">Gabriel Marinho</p>
-            <ul class="menu aligned">
-                <a href="./work.html"><li class="item-menu">Work</li></a>
-                <li class="item-menu">About</li>
-                <li class="item-menu">Contact</li>
-            </ul>
-        </header>
-        <main>
-            <section class="initial-text unselectable">
-                <h1>I'm a student of <br> Software Engineering <br> at <a href="https://portal.utfpr.edu.br/" class="rainbow-text click">UTFPR</a></h1>
-            </section>
-        </main>
-        <footer class="aligned space-between center-two">
-            <ul class="menu column">
-                <a class="link-footer" href="./work.html"><li class="item-menu--footer">Work</li></a>
-                <a class="link-footer" href="#"><li class="item-menu--footer">About</li></a>
-                <a class="link-footer" href="#"><li class="item-menu--footer">Contact</li></a>
-            </ul>
-            <a href="mailto:gdcmarinho@gmail.com">
-                <p class="item-menu--footer">Say hello »</p>
+    <![endif]-->
+    <div class="splash-screen center-one center-two">
+        <div class="loader loader--style1 fade-in" title="Loading...">
+            <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40"
+                xml:space="preserve">
+                <path opacity="0.2" fill="#000"
+                    d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+                  s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+                  c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z" />
+                <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+                  C22.32,8.481,24.301,9.057,26.013,10.047z">
+                    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20"
+                        to="360 20 20" dur="0.5s" repeatCount="indefinite" />
+                </path>
+            </svg>
+        </div>
+    </div>
+
+    <header class="aligned space-between">
+        <p class="logo unselectable">Gabriel Marinho</p>
+        <ul class="menu aligned">
+            <a href="./work.html">
+                <li class="item-menu">Work</li>
             </a>
-        </footer>
-    
-        <script src="./js/script.js" async defer></script>
-    </body>
+            <li class="item-menu">About</li>
+            <li class="item-menu">Contact</li>
+        </ul>
+    </header>
+    <main>
+        <section class="initial-text unselectable">
+            <h1>I'm a student of <br> Software Engineering <br> at <a href="https://portal.utfpr.edu.br/"
+                    class="rainbow-text click">UTFPR</a></h1>
+        </section>
+    </main>
+    <footer class="aligned space-between center-two">
+        <ul class="menu column">
+            <a class="link-footer" href="./work.html">
+                <li class="item-menu--footer">Work</li>
+            </a>
+            <a class="link-footer" href="#">
+                <li class="item-menu--footer">About</li>
+            </a>
+            <a class="link-footer" href="#">
+                <li class="item-menu--footer">Contact</li>
+            </a>
+        </ul>
+        <a href="mailto:gdcmarinho@gmail.com">
+            <p class="item-menu--footer">Say hello »</p>
+        </a>
+    </footer>
+
+    <script src="./js/script.js" async defer></script>
+</body>
+
 </html>
