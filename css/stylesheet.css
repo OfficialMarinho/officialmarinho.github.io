@@ -20,9 +20,8 @@ h1 {
     line-height: 72px;
 }
 
-svg path,
-svg rect{
-  fill: white;
+a {
+    outline: none;
 }
 
 .unselectable {
@@ -46,9 +45,7 @@ svg rect{
 .rainbow-text:hover {
     background: linear-gradient(90deg, rgba(255,211,61,1) 0%, rgba(251,133,50,1) 16%, rgba(234,74,90,1) 32%, rgba(138,99,210,1) 48%, rgba(33,136,255,1) 64%, rgba(52,208,88,1) 85%, rgba(255,211,61,1) 100%) 0% center / 200% auto;
     background-clip: text;
-    -webkit-background-clip: text;
     text-fill-color: transparent;
-    -webkit-text-fill-color: transparent;
     animation: rainbow 4s linear infinite;
 }
 
@@ -80,40 +77,6 @@ svg rect{
 .fadeIn {
     opacity: 0;
     animation: fadeInEffect 1s ease-in forwards;
-}
-
-.splash-screen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background: #111111;
-    z-index: 200;
-    text-align: center;
-}
-
-.splash-screen.display-none {
-    position: fixed;
-    opacity: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    z-index: -10;
-    text-align: center;
-    transition: all 500ms;
-}
-
-.loader {
-    margin: 0 0 2em;
-    height: 100px;
-    width: 20%;
-    text-align: center;
-    padding: 1em;
-    margin: 0 auto 1em;
-    display: inline-block;
-    vertical-align: top;
 }
 
 .menu {
