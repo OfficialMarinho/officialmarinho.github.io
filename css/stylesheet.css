@@ -36,19 +36,6 @@ a {
     cursor: pointer;
 }
 
-.rainbow-text {
-    background: linear-gradient(90deg, rgba(255,211,61,1) 0%, rgba(251,133,50,1) 16%, rgba(234,74,90,1) 32%, rgba(138,99,210,1) 48%, rgba(33,136,255,1) 64%, rgba(52,208,88,1) 85%, rgba(255,211,61,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.rainbow-text:hover {
-    background: linear-gradient(90deg, rgba(255,211,61,1) 0%, rgba(251,133,50,1) 16%, rgba(234,74,90,1) 32%, rgba(138,99,210,1) 48%, rgba(33,136,255,1) 64%, rgba(52,208,88,1) 85%, rgba(255,211,61,1) 100%) 0% center / 200% auto;
-    background-clip: text;
-    text-fill-color: transparent;
-    animation: rainbow 4s linear infinite;
-}
-
 .aligned {
     display: flex;
     flex-direction: row;
@@ -134,25 +121,4 @@ a {
 .description-project {
     font-size: 14px;
     font-weight: 400;
-}
-
-.shark {
-    width: 200px;
-    margin-top: 10vh;
-}
-
-.easter-egg {
-    background-color: #006FDC;
-}
-
-.yt-video {
-    display: none;
-}
-
-@keyframes rainbow {
-    to { background-position-x: 200%; }
-}
-
-@keyframes fadeInEffect {
-    to { opacity: 1; }
 }
