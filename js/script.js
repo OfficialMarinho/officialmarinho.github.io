@@ -15,7 +15,7 @@ request.onload = function () {
 
     if (request.status >= 200 && request.status < 400) {
         projects.forEach(projects => {
-            if (projects.fork != true && projects.language != 'C') {
+            if (projects.fork != true && projects.language != 'C' && projects.description != null) {
                 const link = document.createElement('a');
                 link.setAttribute('href', projects.html_url);
 
