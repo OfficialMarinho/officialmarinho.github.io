@@ -96,6 +96,11 @@ a {
     padding: 80px 0px;
 }
 
+.work-page {
+    margin: 80px 0px;
+    text-align: center;
+}
+
 .card {
     border: 0.5px solid #1f1f1f;
     width: 25vw;
@@ -104,6 +109,7 @@ a {
     border-radius: 3px;
     transition: all 200ms linear;
     display: inline-block;
+    text-align: left;
 }
 
 .card:hover {
