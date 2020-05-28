@@ -61,11 +61,6 @@ a {
     justify-content: space-between;
 }
 
-.fadeIn {
-    opacity: 0;
-    animation: fadeInEffect 1s ease-in forwards;
-}
-
 .menu {
     padding: 0px;
 }
@@ -76,7 +71,7 @@ a {
 }
 
 .--active {
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
 }
 
 .item-menu--footer {
@@ -85,6 +80,11 @@ a {
 
 .link-footer {
     display: inline-block;
+}
+
+.brazil-flag {
+    width: 65px;
+    margin-right: 15px;
 }
 
 .initial-text {
