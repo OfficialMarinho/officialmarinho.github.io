@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
+::selection {
+    color: #121212;
+    background-color: white;
+}
+
 * {
     margin: 0;
     padding: none;
@@ -96,9 +101,16 @@ a {
     padding: 80px 0px;
 }
 
-.work-page {
+.work-page, .about-page, .contact-page {
     margin: 80px 0px;
+}
+
+.work-page {
     text-align: center;
+}
+
+.about-page {
+    margin: 80px 80px;
 }
 
 .card {
