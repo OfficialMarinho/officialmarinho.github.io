@@ -1,0 +1,12 @@
+{
+    "html.format.wrapLineLength": 0,
+    "html.format.indentInnerHtml": true,
+    "html.format.preserveNewLines": true,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "html.format.unformatted": "null",
+    "scssFormatter.singleQuote": true,
+    "editor.wordWrap": "on",
+    "files.insertFinalNewline": false
+  }
