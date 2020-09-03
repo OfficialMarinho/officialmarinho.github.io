@@ -1,4 +1,4 @@
-const apiURL = 'https://api.github.com/users/OfficialMarinho/repos';
+const apiURL = 'https://api.github.com/users/GabrielCMarinho/repos';
 const projectsList = document.getElementById('projects');
 var request = new XMLHttpRequest();
 
